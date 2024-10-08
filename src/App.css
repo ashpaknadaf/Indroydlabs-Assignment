@@ -1,0 +1,169 @@
+/* General styles */
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f0f5;
+  font-family: 'Roboto', sans-serif;
+}
+
+.game-container {
+  width: 100%;
+  max-width: 1200px;
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.game-title {
+  font-size: 36px;
+  color: #4CAF50;
+  font-weight: bold;
+  padding-top: 30px;
+}
+
+.welcome-text{
+  color: #0097a7;
+
+}
+
+.join-section, .question-section, .game-over-section {
+  padding: 20px;
+}
+
+.join-section {
+  padding: 50px;
+  border-radius: 15px;
+  color: white;
+  animation: slideIn 1s ease-out;
+}
+
+.qr-code {
+  margin: 20px 0;
+}
+
+.instructions {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.name-input-section {
+  margin-top: 20px;
+}
+
+.name-input {
+  padding: 12px;
+  font-size: 16px;
+  border: solid, 1px black;
+  border-radius: 8px;
+  width: 250px;
+
+}
+
+.join-button {
+  margin-top: 10px;
+  margin-left: 20px;
+  padding: 12px 24px;
+  background: #4CAF50;
+  border: none;
+  color: #333;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+
+
+.question-container {
+  background: #e8f5e9;
+  padding: 20px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.question-text{
+  font-size: 22px;
+  color: #00bcd4;
+}
+
+.options-list {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.option-button {
+  background: #00bcd4;
+  color: white;
+  padding: 15px;
+  width: 250px;
+  border: none;
+  border-radius: 8px;
+  margin: 10px 0;
+  cursor: pointer;
+  
+}
+
+.option-button:hover {
+  background: #0097a7;
+}
+
+.option-button.correct {
+  background: #4CAF50;
+}
+
+.option-button.incorrect {
+  background: #f44336;
+}
+
+.submit-button {
+  margin-top: 20px;
+  padding: 15px 30px;
+  background: #00bcd4;
+  border: none;
+  color: white;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  
+}
+
+
+.success-message {
+  margin-top: 10px;
+  color: green;
+}
+
+.error-message {
+  margin-top: 10px;
+  color: red;
+}
+
+.game-over-section {
+  text-align: center;
+}
+
+.trophy-image {
+  width: 150px;
+  margin: 20px 0;
+}
+
+.prize-money {
+  font-size: 18px;
+  color: #ff5722;
+  font-weight: bold;
+}
+
+.result-text{
+  font-size: 20px;
+  color: #0097a7;
+  font-weight: 500;
+}
+
+.total-price-text{
+  color: #4CAF50;
+  font-weight: bold;
+}
